@@ -164,9 +164,9 @@ opacity: 1;
 }
 
 #navigation li a {
+	color: #D81313;
 	display: block;
 	width: 180px;
-	color: orange;
 	text-decoration: none;
 	padding: 10px 35px;
 }
@@ -193,6 +193,7 @@ opacity: 1;
 }
 
 #navigation a {
+	color: #120101;
 	padding: 6px;
 	line-height: 1.5;
 	font-size: 0.85em;
@@ -256,7 +257,7 @@ h1 {
 	color: #840000;
 }
 a {
-	color: #1926D9;
+	color: #931212;
 }
 a:hover {
 	color: orange;
