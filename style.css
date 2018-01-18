@@ -1,0 +1,266 @@
+#global  {
+	width: 1000px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(images/rockmore.png);
+	background-size: 50%;
+	-webkit-background-size: cover;
+}
+
+#contenu {
+	min-height: 100%;
+	width: 960px;
+	overflow: auto;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #363B29;
+	background: #FDF5E6;
+}
+
+#contenu p, #contenu li {
+	line-height: 1.5;
+}
+
+#contenu h3 {
+	font-size: 1.2em;
+}
+
+#contenu a {
+	color: #332510;
+	text-decoration: none;
+}
+
+#contenu a:hover {
+	color: #5F9EA0;
+}
+
+
+.group1, .group2, .group3 {
+	display: inline;
+	float: left;
+	width: 250px;
+	position: relative;
+	padding: 32px;
+	margin: auto;
+	text-align: justify;
+}
+
+.group2 audio
+{
+	width: 200px;
+	height: 20px;
+}
+
+
+#contenu .group4 {
+	float: left;
+	width: 935x;
+	position: relative;
+	padding: 15px;
+	background: transparent;
+	background-image: url(images/top.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: auto;
+	text-align: justify;
+}
+
+#contenu .group4 h4 {
+	float: left;
+	margin: 0px 10px 5px 5px;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: slategray;
+}
+
+
+
+.photoentete
+{
+	float: left;
+	margin: 0 20px 20px 1px;
+	-webkit-box-shadow: 0px 0px 30px #972B04;
+	-moz-box-shadow: -7px 6px 15px #F06836;
+}
+
+.photo:hover, .photoentete:hover
+{
+background-color: red;
+opacity: 1;
+}
+
+.lien
+{
+	color: #000090;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.lien:hover
+{
+	color: #778899;
+}
+
+
+
+
+#entete { 			/*Gère les propriétés de l'id "entete"*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px 20px 10px 20px;
+	background: dark;
+}
+
+#entete h1 {
+	margin: 0;
+	font-size: 1.7em;
+	font-family: Verdana, sans-serif;
+	color: #A20101;
+}
+
+#entete h2 {
+	margin: 10px 1px;
+	font-size: 1.4em;
+	font-family: Verdana, sans-serif;
+	color: #A20101;
+}
+
+
+#entete img {
+	max-width: 100%;
+}
+
+.photoentete 
+{
+	margin: 0 20px 20px 1px;
+}
+
+#navigation {
+	margin-left: auto;
+	margin-right: none;
+	width: 1000px;
+	min-width: 100%;
+}
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#navigation li {
+	float: left;
+	margin: none;
+	padding: 0;
+	background-color: #464040;
+}
+
+#navigation li a {
+	display: block;
+	width: 130px;
+	color: orange;
+	text-decoration: none;
+	padding: 10px 35px;
+}
+
+#navigation ul li ul {
+	display: none;
+}
+
+#navigation ul li:hover ul {
+	display:block;
+}
+
+#navigation li:hover ul li {
+	display: block;
+}
+
+#navigation li:hover ul li {
+	float: none;
+}
+
+#navigation li ul {
+	position: absolute;
+	z-index: 1;
+}
+
+#navigation a {
+	padding: 6px;
+	line-height: 1.5;
+	font-size: 0.85em;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+
+#navigation li a:hover, #navigation ul li ul li a:hover {
+	color: #ffd700;
+	background: #132959
+}
+
+
+#pied {
+	min-height: 100%;
+	display: block;
+	width: 900px;
+	overflow: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #708090;
+}
+
+#pied  .group1, #pied  .group2, #pied  .group3, #pied  .group4 {
+	text-align: left;
+	width: 150px;
+}
+
+#pied .group4 {
+	float: left;
+	width: 935x;
+	position: relative;
+	padding: 15px;
+	background: transparent;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: auto;
+	text-align: justify;
+}
+}
+
+#pied h3 {
+	font-size: 1.1em;
+	color: #3F4AE2;
+}
+
+#pied a {
+	color: #F5F5F5;
+	font-size: 0.85em;
+	text-decoration: none;
+}
+
+#pied a:hover{
+	color: #4B0082;
+}
+
+
+
+h1 {
+	color: #840000;
+}
+a {
+	color: #1926D9;
+}
+a:hover {
+	color: orange;
+}
+a:visited {
+	color: #7E20DC;
+}
