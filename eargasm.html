@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+	</style>
+	<meta charset="UTF-8">
+	<title>Le Métal !</title>
+	<link rel="icon" type="image/jpg" href="images/hand.jpg" />
+	<link rel="stylesheet" href="stylealternatif.css" type="text/css"/>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="global">
+	<p>  </p>
+		<div id="entete">
+			<img src="images/ozzy_osbourne1.jpg" alt="Château" class="photoentete"/>
+			<h2>Approchez, approchez, et venez découvrir...</h2>
+			<h1>LE MÉTAL !</h1>
+		</div><!-- #entete -->
+		<div id="navigation">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="introduction.html">Introduction au METAL !</a></li>
+				<li><a href="index.html">Les principaux styles !</a>
+				<ul>
+					<li><a href="trash.html">Trash</a></li>
+					<li><a href="power.html">Power</a></li>
+					<li><a href="black.html">Black</a></li>
+					<li><a href="reste.html">Et le reste...</a></li>
+				</ul>
+				</li>
+				<li><a href="eargasm.html">Oreillegasme</a></li>
+			</ul>
+		</div><!-- #navigation -->
+
+		<div id="contenu">
+		<br>
+			<section class="group1">
+				<h3>Un style plutôt agressif.</h3>
+				<img src="images/voiceofthevoiceless.jpg" width="200" height="200" alt="Chambord en ballon" class="photo" onclick="joueLeSon('voiceless')"/>
+				<audio id="voiceless" src="audio/voice.mp3"> </audio>
+				</br>
+				<button class="control" onclick="joueLeSon('voiceless')">Play</button>
+				</br>
+				<span class="volume">
+					<a class="stick1" onclick="volumeLeSon('voiceless', 0.3)"></a>
+					<a class="stick2" onclick="volumeLeSon('voiceless', 0.3)"></a>
+					<a class="stick3" onclick="volumeLeSon('voiceless', 0.5)"></a>
+					<a class="stick4" onclick="volumeLeSon('voiceless', 0.8)"></a>
+					<a class="stick5" onclick="volumeLeSon('voiceless', 1)"></a>
+				</span>
+				<button class="control" onclick="pauseLeSon('voiceless')">Pause</button>
+				<p></p>
+				<br>
+			</section>
+			
+			<section class="group4">
+				<h3><a href="http://brutallegend.wikia.com/wiki/Lemmy">À la rencontre du Killmaster !</a></h3>
+				<img src="images/killmaster2.jpg" width="300" height="200" alt="picture" class="photo"/>
+				<p>Découvrez le Killmaster, un expert dans la guérison par les basses !
+				Rien n'est impossible pour lui, qui a déjà ressuscité bien des gens à l'aide des sonorités que lui offrent ses nouvelles cordes !</p>
+			</section>
+			<section class="group4">
+				<h3><a href="diversites.html">La puissance capillaire (et vocale) de Lionwhyte !</a></h3>
+				<audio id="lionwhyte" src="audio/lionwhyte.mp3"> </audio>
+				<img src="images/lionwhyte.jpg" width="250" height="166" alt="picture" class="photo" onclick="joueLeSon('lionwhyte')"/>
+				<p>Chacun peut l'admettre, Raiponce ne lui arrive pas à la cheville ! 
+				Verlaine, Baudelaire, aucun ne trouva de mots suffisamment exquis pour exprimer la majesté de cette chevelure !<br>
+				Mot de l'intéressé: "L'Oréal Paris, parce que je le vaux bien".</p>
+			</section>
+		</div><!-- #contenu -->
+		
+		<div id="pied">
+			<section class="group1">
+				<h3>Festivals</h3>
+				<a href="http://www.hellfest.fr/">METAAAAAAAAAL !</a></br>
+				<a href="http://www.ot-valdelindre.com/">Office du tourisme d'Indre et Loire</a>
+			</section>
+			<section class="group2">
+				<h3>À voir / À faire</a></h3>
+				<a href="http://www.vinci-closluce.com/fr">Le clos Lucé</a></br>
+				<a href="http://www.grottes-savonnieres.com/">Les grottes mousseuses de Savonnières</a></br>
+			</section>
+			
+			<section class="group3">
+				<h3>Où dormir</h3>
+				<a href="http://www.legrandhoteltours.com/">Grand hôtel de Tours</a></br>
+			</section>
+			<section class="group4">
+				<h3>Informations pratiques</h3>
+				<a href="http://www.info-tours.fr/">Agence départementale du tourisme</a></br>
+			</section>
+		</div><!-- #pied -->
+		
+	</div><!-- #global -->
+</body>
+</html>
