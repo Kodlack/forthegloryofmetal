@@ -22,7 +22,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	color: #363B29;
-	background: #FDF5E6;
+	background: #5A5959;
 }
 
 #contenu p, #contenu li {
@@ -31,6 +31,7 @@ body {
 
 #contenu h3 {
 	font-size: 1.2em;
+	color: #B91919;
 }
 
 #contenu a {
@@ -44,9 +45,9 @@ body {
 
 
 .group1, .group2, .group3 {
-	display: inline;
+	display: block;
 	float: left;
-	width: 250px;
+	width: 750px;
 	position: relative;
 	padding: 32px;
 	margin: auto;
@@ -61,10 +62,11 @@ body {
 
 
 #contenu .group4 {
+	display: block;
 	float: left;
 	width: 935x;
 	position: relative;
-	padding: 15px;
+	padding: 32px;
 	background: transparent;
 	background-image: url(images/top.png);
 	background-position: left top;
@@ -202,7 +204,7 @@ opacity: 1;
 }
 
 #navigation li a:hover, #navigation ul li ul li a:hover {
-	color: #ffd700;
+	color: #FE0101;
 	background: #132959
 }
 
