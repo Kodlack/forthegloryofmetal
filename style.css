@@ -165,7 +165,7 @@ opacity: 1;
 
 #navigation li a {
 	display: block;
-	width: 130px;
+	width: 180px;
 	color: orange;
 	text-decoration: none;
 	padding: 10px 35px;
@@ -176,7 +176,7 @@ opacity: 1;
 }
 
 #navigation ul li:hover ul {
-	display:block;
+	display: block;
 }
 
 #navigation li:hover ul li {
