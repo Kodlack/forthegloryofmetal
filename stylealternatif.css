@@ -43,6 +43,14 @@ body {
 	color: #5F9EA0;
 }
 
+#contenu .group2{
+	width: 450px;
+}
+
+#contenu .group3{
+	width: 875px;
+}
+
 
 .group1, .group2, .group3 {
 	display: inline;
