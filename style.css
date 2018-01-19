@@ -64,7 +64,7 @@ body {
 #contenu .group4 {
 	display: block;
 	float: left;
-	width: 935x;
+	width: 875px;
 	position: relative;
 	padding: 32px;
 	background: transparent;
@@ -118,7 +118,7 @@ opacity: 1;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 25px 20px 10px 20px;
-	background: dark;
+	background: black;
 }
 
 #entete h1 {
@@ -147,7 +147,6 @@ opacity: 1;
 
 #navigation {
 	margin-left: auto;
-	margin-right: none;
 	width: 1000px;
 	min-width: 100%;
 }
@@ -160,7 +159,6 @@ opacity: 1;
 
 #navigation li {
 	float: left;
-	margin: none;
 	padding: 0;
 	background-color: #464040;
 }
@@ -217,17 +215,17 @@ opacity: 1;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #708090;
+	background: #2A2323;
 }
 
 #pied  .group1, #pied  .group2, #pied  .group3, #pied  .group4 {
 	text-align: left;
-	width: 150px;
+	width: 130px;
 }
 
 #pied .group4 {
 	float: left;
-	width: 935x;
+	width: 130px;
 	position: relative;
 	padding: 15px;
 	background: transparent;
@@ -236,7 +234,7 @@ opacity: 1;
 	margin: auto;
 	text-align: justify;
 }
-}
+
 
 #pied h3 {
 	font-size: 1.1em;

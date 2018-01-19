@@ -1,6 +1,16 @@
-function joueLeSon()
+function joueLeSon(idSon)
 {
- var audio=document.getElementById("audio");
- audio.play();
+ var player=document.getElementById(idSon);
+ player.play();
  
+}
+
+function pauseLeSon(idSon){
+	var player=document.getElementById(idSon);
+	player.pause()
+}
+
+function volumeLeSon(idSon, dB){
+	var player=document.querySelector('#' + idSon);
+	player.volume = dB;
 }

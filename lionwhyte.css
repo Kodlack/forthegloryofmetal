@@ -1,0 +1,48 @@
+#global  {
+	width: 1000px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(images/rockmore.png);
+	background-size: 50%;
+}
+
+#contenu {
+	min-height: 100%;
+	width: 960px;
+	overflow: auto;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #363B29;
+	background: #5A5959;
+}
+
+#contenu p, #contenu li {
+	line-height: 1.5;
+}
+
+#contenu h3 {
+	font-size: 1.2em;
+	color: #000000;
+}
+
+#contenu a {
+	color: #332510;
+	text-decoration: none;
+}
+
+#contenu a:hover {
+	color: #5F9EA0;
+}
+
+.photo{
+	min-height: 495px;
+	min-width: 500px;
+}
